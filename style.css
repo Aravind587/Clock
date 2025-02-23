@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #bcca22;
+    background-image: url('istockphoto-1411682102-170667a.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white url(clock.png) center/cover no-repeat;
+    border: 10px solid #fff;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.clock:before {
+    content: '';
+    position: absolute;
+    width: 5%;
+    height: 5%;
+    background: #fff;
+    border-radius: 50%;
+    z-index: 10000;
+}
+
+.hour, .min, .sec {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    transform-origin: bottom;
+}
+
+.hr:before, .mn:before, .sc:before {
+    content: '';
+    bottom: 0;
+    border-radius: 6px 6px 0 0;
+    position: absolute;
+}
+
+.center-time {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #4b1de1;
+    box-shadow: 1.5px 1.5px 10px 10px #ebe7e7;
+}
+
+@media (max-width: 780px) {
+    .clock {
+        width: 250px;
+        height: 250px;
+       
+    }
+    .hr:before { width: 6px; height: 60px; background: #ff105e; }
+    .mn:before { width: 4px; height: 80px; background: #ced41f; }
+    .sc:before { width: 2px; height: 100px; background: #4b1de1; }
+    .center-time { width: 250px; height: 70px; border-radius: 40px; font-size: 50px; }
+}
+
+@media (min-width: 780px) {
+    .clock {
+        width: 300px;
+        height: 300px;
+       
+    }
+    .hr:before { width: 6px; height: 60px; background: #ff105e; }
+    .mn:before { width: 4px; height: 80px; background: #ced41f; }
+    .sc:before { width: 2px; height: 100px; background: #4b1de1; }
+    .center-time { width: 250px; height: 70px; border-radius: 40px; font-size: 50px; }
+}
+@media (min-width: 800px) {
+    .clock {
+        width: 400px;
+        height: 400px;
+    }
+    .hr:before { width: 8px; height: 100px; background: #ff105e; }
+    .mn:before { width: 6px; height: 130px; background: #ced41f; }
+    .sc:before { width: 4px; height: 150px; background: #4b1de1; }
+    .center-time { width: 400px; height: 110px; border-radius: 90px; font-size: 90px; }
+}
+
+@media (min-width: 1024px) {
+    .clock {
+        width: 500px;
+        height: 500px;
+    }
+    .hr:before { width: 10px; height: 130px; background: #ff105e; }
+    .mn:before { width: 8px; height: 160px; background: #ced41f; }
+    .sc:before { width: 5px; height: 190px; background: #4b1de1; }
+    .center-time { width: 500px; height: 130px; border-radius: 140px; font-size: 110px; }
+}
