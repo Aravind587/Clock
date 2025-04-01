@@ -13,6 +13,7 @@ body {
     background-image: url('istockphoto-1411682102-170667a.webp');
     background-repeat: no-repeat;
     background-size: cover;
+    height:100%;
 }
 
 .container {
