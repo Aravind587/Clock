@@ -110,5 +110,5 @@ body {
     .hr:before { width: 10px; height: 130px; background: #ff105e; }
     .mn:before { width: 8px; height: 160px; background: #ced41f; }
     .sc:before { width: 5px; height: 190px; background: #4b1de1; }
-    .center-time { width: 500px; height: 130px; border-radius: 140px; font-size: 110px;}
+    .center-time { width: 500px; height: 130px; border-radius: 140px; font-size: 90px;}
 }
