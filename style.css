@@ -99,7 +99,7 @@ body {
     .hr:before { width: 8px; height: 100px; background: #ff105e; }
     .mn:before { width: 6px; height: 130px; background: #ced41f; }
     .sc:before { width: 4px; height: 150px; background: #4b1de1; }
-    .center-time { width: 350px; height: 80px; border-radius: 90px; font-size: 60px;  }
+    .center-time { width: 350px; height: 80px; border-radius: 90px; font-size:110px;  }
 }
 
 @media (min-width: 1024px) {
