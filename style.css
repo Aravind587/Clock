@@ -99,7 +99,7 @@ body {
     .hr:before { width: 8px; height: 100px; background: #ff105e; }
     .mn:before { width: 6px; height: 130px; background: #ced41f; }
     .sc:before { width: 4px; height: 150px; background: #4b1de1; }
-    .center-time { width: 400px; height: 90px; border-radius: 90px; font-size: 70px;  }
+    .center-time { width: 350px; height: 80px; border-radius: 90px; font-size: 60px;  }
 }
 
 @media (min-width: 1024px) {
@@ -110,5 +110,5 @@ body {
     .hr:before { width: 10px; height: 130px; background: #ff105e; }
     .mn:before { width: 8px; height: 160px; background: #ced41f; }
     .sc:before { width: 5px; height: 190px; background: #4b1de1; }
-    .center-time { width: 450px; height: 90px; border-radius: 140px; font-size: 90px;}
+    .center-time { width: 400px; height: 90px; border-radius: 140px; font-size: 70px;}
 }
