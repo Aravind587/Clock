@@ -93,8 +93,8 @@ body {
 }
 @media (min-width: 800px) {
     .clock {
-        width: 400px;
-        height: 400px;
+        width: 350px;
+        height: 350px;
     }
     .hr:before { width: 8px; height: 100px; background: #ff105e; }
     .mn:before { width: 6px; height: 130px; background: #ced41f; }
@@ -104,11 +104,11 @@ body {
 
 @media (min-width: 1024px) {
     .clock {
-        width: 450px;
-        height: 450px;
+        width: 400px;
+        height: 400px;
     }
     .hr:before { width: 10px; height: 130px; background: #ff105e; }
     .mn:before { width: 8px; height: 160px; background: #ced41f; }
     .sc:before { width: 5px; height: 190px; background: #4b1de1; }
-    .center-time { width: 500px; height: 110px; border-radius: 140px; font-size: 90px;}
+    .center-time { width: 450px; height: 90px; border-radius: 140px; font-size: 90px;}
 }
